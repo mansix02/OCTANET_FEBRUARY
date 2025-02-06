@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand" href="#">TressTrendy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li >
+            <a class="nav-link " href="#home">Home</a>
+          </li>
+          <li >
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <!-- <img src="image.png" alt="" class="home-img"> -->
+    <div class="container">
+      <div class="row bg-light py-5">
+        <div class="col-md-12 text-center">
+          <h1>Welcome to TressTrendy</h1>
+          <p class="lead">ressTrendy is your go-to destination for stylish and high-quality hair accessories, including clips, scrunchies, and more! Whether you're looking for elegant hair clips to elevate your look, trendy scrunchies for everyday wear, or unique accessories to match your style, TressTrendy has it all. Our collection is designed to add a touch of charm and convenience to your hair game. Explore the latest trends and give your hair the love it deserves with TressTrendy! </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section py-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 ">
+          <img src="./imgs/about-image.jpg" class="about-img mt-5" alt="About Image" >
+        </div>
+        <div class="col-md-5 bg-dark text-white mt-5 align-items-center">
+          <h2>About Us</h2>
+          <br>
+          <p>ressTrendy is your go-to destination for stylish and high-quality hair accessories, including clips, scrunchies, and more! Whether you're looking for elegant hair clips to elevate your look, trendy scrunchies for everyday wear, or unique accessories to match your style, TressTrendy has it all. Our collection is designed to add a touch of charm and convenience to your hair game. Explore the latest trends and give your hair the love it deserves with TressTrendy! </p>
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products-section py-5 mt-5 ">
+    <div class="container">
+      <h2 class="text-center mb-4 mt-5">Our Products</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./imgs/scrunchy.png" class="card-img-top" alt="Product 1">
+            <div class="card-body">
+              <h5 class="card-title">scrunchies</h5>
+              <p class="card-text">Rupees: 30</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./imgs/clip.jpg" class="card-img-top" alt="Product 2">
+            <div class="card-body">
+              <h5 class="card-title">clips</h5>
+              <p class="card-text">Rupees: 100</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./imgs/ch.webp" class="card-img-top" alt="Product 3">
+            <div class="card-body">
+              <h5 class="card-title">clutcher</h5>
+              <p class="card-text">Rupees: 70</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section py-5 mt-5 mb-5 col-md-5 bg-dark text-white align-items-center mx-auto border-radius-10">
+    <div class="container">
+        <h2 class="text-center mb-4 ">Contact Us</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+  
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center py-3">
+      <div class="container">
+        <p>&copy; 2023 MyWebsite. All rights reserved.</p>
+      </div>
+    </footer>
+  
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
